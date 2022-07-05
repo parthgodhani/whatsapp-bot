@@ -46,7 +46,7 @@ client.on("ready", async () => {
     const media =await MessageMedia.fromUrl('https://colouredlab.com/assets/coloured-lab-symbol-white.png');
 
     console.log(media);
-    client.sendMessage("918000523940@c.us",media, )
+    client.sendMessage("918000523940@c.us",media,{caption:"test caption"})
     client.sendMessage("917698766896@c.us",media,)
     client.sendMessage("917698766896@c.us",media,)
     client.sendMessage("917698766896@c.us",media,)
